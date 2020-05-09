@@ -1,0 +1,31 @@
+---
+title: "Coursera - Developing data products - Pitch"
+date: "2020-05-09"
+output:
+  slidy_presentation: default
+  powerpoint_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## App function
+
+The shiny app is based on the RStudio mtcars datatset. It shows the correlation between the fuel consumption (mpg) vs. different car parameters. By using the app you are able to figure out the influence of these different parameters on the mpg value.
+
+## Overview mtcars dataset
+
+```{r, echo=TRUE}
+head(mtcars)
+```
+
+## Data sources
+
+Now give it a try and play around with the shiny app under the following link:
+https://sacool117.shinyapps.io/Fuel-consumption/
+
+If you would like to figure out more about the source code, follow up the Github link:
+https://github.com/Sacool117/Coursera---Developing-data-products---Final-assignement-week-4
+
+## Thanks for the attention
